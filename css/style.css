@@ -1,4 +1,17 @@
-body {
+#title {
+    color: #025955;
+}
+
+.subtitle {
+    color:#027e6b ;
+}
+
+
+
+
+
+
+/* body {
   background-color: aquamarine;
 }
 
@@ -26,20 +39,19 @@ td:first-child {
 h2 + a {
   color: blue;
 }
-
+----advanced selectors------ 
 textarea ~ button {
-  color: red;
+  color:red;
 }
 
 ul > li {
-  color: seagreen;
+    color: seagreen;
 }
 
 ul li a {
-  color: seagreen;
+    color: seagreen;
 }
 
-/*attribute selector*/
-img[src^="../images/"] {
-  border: 10px black solid;
-}
+img[src^="../images/"]{
+    border: 10px black solid;
+} */

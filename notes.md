@@ -1,6 +1,6 @@
 ## ⭐Specificity of selectors
 
-element < .class < #id < inline-styling
+Element < .class < #id < inline-styling
 
 ## ⭐PSEUDOSELECTORS
 
@@ -12,7 +12,7 @@ For example, it can be used to:
 - Style visited and unvisited links differently
 - Style an element when it gets focus
 
-### syntax-
+### Syntax-
 
 ```
 selector:pseudo-class {
@@ -20,7 +20,7 @@ property: value;
 }
 ```
 
-### types of pseudoselectors-
+### Types of pseudoselectors-
 
 - :hover
 - :active

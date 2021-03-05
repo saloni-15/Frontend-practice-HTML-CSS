@@ -8,15 +8,15 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="title">My Website</h1>
-    <p>
+    <h1 id="title">My Website</h1>
+    <p class="para-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Id odit obcaecati
       exercitationem nulla doloremque in ab necessitatibus recusandae voluptatum
       totam?
     </p>
     <h2 class="subtitle">About Me</h2>
     <img src="../images/wallpaper.png" alt="image" />
-    <p>
+    <p class="para-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates in,
       modi fuga rerum quibusdam veniam eligendi? Harum quo quia repudiandae
       error quam temporibus odit architecto eos provident, repellat dolorem?
@@ -26,13 +26,13 @@
       iure beatae!
     </p>
     <ul>
-      <li>Lorem, ipsum dolor.</li>
-      <li><a href="#">Lorem ipsum dolor sit.</a></li>
-      <li>Lorem, ipsum.</li>
+      <li class="list-item">Lorem, ipsum dolor.</li>
+      <li class="list-item"><a href="#">Lorem ipsum dolor sit.</a></li>
+      <li class="list-item">Lorem, ipsum.</li>
     </ul>
     <h2 class="subtitle">Services</h2>
-    <a href="https://google.com">Click here</a>
-    <table>
+    <a href="https://google.com" class="link">Click here</a>
+    <table border="1">
       <tr>
         <td>lorem</td>
         <td>ipsum</td>
@@ -50,12 +50,23 @@
       </tr>
     </table>
     <img src="../images/wallpaper2.png" alt="" />
-    <h2>Contact Us</h2>
+    <h2 class="subtitle">Contact Us</h2>
     <form>
-      <label for="name">Enter Name :</label>
-      <input type="text" name="name" id="name" />
-      <label for="desc">Description : </label>
-      <textarea name="desc" id="desc" cols="20" rows="1"></textarea>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter Name"
+        class="form-input"
+      />
+      <input
+        type="email"
+        name="mail"
+        id="mail"
+        placeholder="xyz@example.com"
+        class="form-input"
+      />
+      <textarea name="desc" id="desc" cols="20"></textarea>
       <button>Submit</button>
     </form>
   </body>
