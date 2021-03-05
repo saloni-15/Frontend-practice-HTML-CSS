@@ -1,13 +1,23 @@
 body {
-  background-color: #fde8cd;
+  background-color: rgb(243, 208, 232);
 }
 
 #title {
-  color: #025955;
+  color: rgba(117, 21, 88);
 }
 
 .subtitle {
-  color: #027e6b;
+  color: rgba(173, 38, 133);
+}
+
+#services-img {
+  height: 400px;
+  width: 70%;
+  background-image: linear-gradient(
+    to right,
+    rgba(117, 21, 88),
+    rgba(117, 21, 88, 0)
+  );
 }
 
 /* body {
