@@ -18,59 +18,23 @@ body {
 }
 
 #services-img {
-  height: 400px;
-  width: 70%;
-  background-image: radial-gradient(circle, red 20%, yellow 40%, green 50%);
+  height: 300px;
+  width: 60%;
+  background-image: radial-gradient(circle, red, yellow, blue, green );
+  border: 5px solid black;
+  margin: 30px;
 }
 
 .list-item {
   text-decoration: none;
   list-style: none;
 }
-.para-text {
+
+.about-me-img{
+    width: 60vw;
+    height:300px;
+    border: 5px solid black;
+    /* padding: 10px; */
+    margin: 30px;
 }
 
-/* body {
-  background-color: aquamarine;
-}
-
-h1:hover {
-  color: white;
-}
-
-td,
-table {
-  border: 1px black solid;
-}
-
-.title {
-  color: blueviolet;
-}
-
-.subtitle {
-  color: crimson;
-}
-
-td:first-child {
-  color: yellow;
-}
-
-h2 + a {
-  color: blue;
-}
-----advanced selectors------ 
-textarea ~ button {
-  color:red;
-}
-
-ul > li {
-    color: seagreen;
-}
-
-ul li a {
-    color: seagreen;
-}
-
-img[src^="../images/"]{
-    border: 10px black solid;
-} */
