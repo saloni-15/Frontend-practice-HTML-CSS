@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(243, 208, 232);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(243, 160, 217),
+    rgb(243, 160, 217, 0)
+  );
 }
 
 #title {
@@ -13,11 +17,7 @@ body {
 #services-img {
   height: 400px;
   width: 70%;
-  background-image: linear-gradient(
-    to right,
-    rgba(117, 21, 88),
-    rgba(117, 21, 88, 0)
-  );
+  background-image: radial-gradient(circle, red 20%, yellow 40%, green 50%);
 }
 
 /* body {
