@@ -4,8 +4,9 @@ body {
     rgb(241, 213, 232),
     rgb(241, 213, 232, 0)
   );
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;;
 }
 
 #title {
@@ -22,16 +23,12 @@ body {
   background-image: radial-gradient(circle, red 20%, yellow 40%, green 50%);
 }
 
-.list-item{
-    text-decoration:none;
-    list-style: none;
+.list-item {
+  text-decoration: none;
+  list-style: none;
 }
-.para-text{
-    
+.para-text {
 }
-
-
-
 
 /* body {
   background-color: aquamarine;

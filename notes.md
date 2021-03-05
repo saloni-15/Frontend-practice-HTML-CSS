@@ -100,3 +100,13 @@ input[type="checkbox"]{
    - right
    - left
    - justify
+
+## ⭐Font-manipulation
+
+- font-size
+- font-weight
+- font-style
+- font-family
+  - serif
+  - sans-serif
+  - monospace
