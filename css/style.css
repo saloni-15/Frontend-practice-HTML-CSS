@@ -42,3 +42,21 @@ body {
 .site-table{
     display: none;
 }
+
+.container{
+    background-color: white;
+    display: flex;
+    
+}
+
+.container-item{
+    font-size: 2rem;
+    background: green;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    width: 70px;
+    color: white;
+    
+    
+}
