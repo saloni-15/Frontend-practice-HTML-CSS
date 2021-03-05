@@ -6,7 +6,7 @@ body {
   );
   /* text-transform: uppercase; */
   text-align: justify;
-  font-family: 'Source Sans Pro', sans-serif;;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #title {
@@ -20,7 +20,7 @@ body {
 #services-img {
   height: 300px;
   width: 60%;
-  background-image: radial-gradient(circle, red, yellow, blue, green );
+  background-image: radial-gradient(circle, red, yellow, blue, green);
   border: 5px solid black;
   margin: 30px;
 }
@@ -30,11 +30,15 @@ body {
   list-style: none;
 }
 
-.about-me-img{
-    width: 60vw;
-    height:300px;
-    border: 5px solid black;
-    /* padding: 10px; */
-    margin: 30px;
+.about-me-img {
+  width: 60vw;
+  height: 300px;
+  border: 5px solid black;
+  padding: 01px;
+  margin: 30px;
+  float: right;
 }
 
+.site-table{
+    display: none;
+}
