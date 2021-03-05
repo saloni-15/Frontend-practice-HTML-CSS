@@ -22,3 +22,24 @@ table {
 td:first-child {
   color: yellow;
 }
+
+h2 + a {
+  color: blue;
+}
+
+textarea ~ button {
+  color: red;
+}
+
+ul > li {
+  color: seagreen;
+}
+
+ul li a {
+  color: seagreen;
+}
+
+/*attribute selector*/
+img[src^="../images/"] {
+  border: 10px black solid;
+}
