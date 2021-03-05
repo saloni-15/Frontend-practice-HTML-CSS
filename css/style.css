@@ -2,6 +2,23 @@ body {
   background-color: aquamarine;
 }
 
-h1 {
+h1:hover {
+  color: white;
+}
+
+td,
+table {
+  border: 1px black solid;
+}
+
+.title {
   color: blueviolet;
+}
+
+.subtitle {
+  color: crimson;
+}
+
+td:first-child {
+  color: yellow;
 }
