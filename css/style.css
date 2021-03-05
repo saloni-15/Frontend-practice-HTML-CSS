@@ -1,9 +1,11 @@
 body {
   background-image: linear-gradient(
     to bottom,
-    rgb(243, 160, 217),
-    rgb(243, 160, 217, 0)
+    rgb(241, 213, 232),
+    rgb(241, 213, 232, 0)
   );
+  text-transform: uppercase;
+  text-align: justify;
 }
 
 #title {
@@ -19,6 +21,17 @@ body {
   width: 70%;
   background-image: radial-gradient(circle, red 20%, yellow 40%, green 50%);
 }
+
+.list-item{
+    text-decoration:none;
+    list-style: none;
+}
+.para-text{
+    
+}
+
+
+
 
 /* body {
   background-color: aquamarine;

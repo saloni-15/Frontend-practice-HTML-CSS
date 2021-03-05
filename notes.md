@@ -74,5 +74,25 @@ input[type="checkbox"]{
     background:orange;
 }
 ```
+## ⭐CSS Colours and Gradients
+- Using rgba() to adjust opacity
+- linear-gradient()
+- radial-gradient()
 
+## ⭐Text-manipulation
 
+- text-decoration
+ - none
+ - underline
+ - linethrough
+
+- text-tranform
+ - capitalize
+ - uppercase
+ - lowercase
+
+- text-align
+ - center
+ - right
+ - left
+ - justify
