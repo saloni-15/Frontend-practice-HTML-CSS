@@ -39,29 +39,25 @@ body {
   float: right;
 }
 
-.site-table{
-    display: none;
+.site-table {
+  display: none;
 }
 
-.container{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 300px;
-    justify-content: space-between;
-    align-items: center;
-    
+.container {
+  background-color: white;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-item{
-    font-size: 2rem;
-    background: green;
-    text-align: center;
-    line-height: 50px;
-    margin: 10px;
-    width: 70px;
-    color: white;
-    
-    
+.container-item {
+  font-size: 2rem;
+  background: green;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+  width: 70px;
+  color: white;
 }
