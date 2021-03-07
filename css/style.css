@@ -20,7 +20,7 @@ body {
 #services-img {
   height: 300px;
   width: 60%;
-  background-image: radial-gradient(circle, red, yellow, blue, green);
+  background-image: radial-gradient( red, yellow, blue, green);
   border: 5px solid black;
   margin: 30px;
 }
@@ -60,4 +60,5 @@ body {
   margin: 10px;
   width: 70px;
   color: white;
+  
 }
