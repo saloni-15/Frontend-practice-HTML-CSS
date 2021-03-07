@@ -62,3 +62,18 @@ body {
   color: white;
   
 }
+
+.grid-container{
+  background-color: white;
+  height: 400px;
+  margin: 10px;
+  display: grid;
+}
+
+.grid-item{
+  font-size: 2rem;
+  line-height: 50px;
+  width: 70px;
+  margin: 10px;
+  text-align: center;
+}
