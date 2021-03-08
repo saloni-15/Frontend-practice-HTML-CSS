@@ -1,0 +1,78 @@
+body {
+  background: #47bfe052;
+  font-family: "Lato", sans-serif;
+}
+img {
+  width: 400px;
+  height: 200px;
+  transition: 0.5s all;
+}
+img:hover {
+  height: 250px;
+  width: 500px;
+}
+h1,
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+a:hover {
+  color: rgb(111, 81, 241);
+}
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 50px;
+  margin: 10px;
+}
+#image-1 {
+  float: right;
+  margin: 15px;
+}
+.content {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+.sidebar {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-grid > img {
+  margin: 5px;
+}
+
+.post {
+  border: 3px solid #d19003e7;
+  margin: 10px;
+  padding-bottom: 5px;
+  background: #e9d19ee7;
+  /* padding: 0 20px; */
+}
+.post-title,
+.post-text,
+a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sidebar {
+  background: #d695084f;
+}
+
+.post > a {
+  color: rgb(40, 8, 184);
+  text-decoration: none;
+  transition: 0.5s color;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
