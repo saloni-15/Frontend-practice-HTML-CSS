@@ -1,27 +1,70 @@
+/* #edeef7 */
+
 body {
   margin: auto;
   background-color: #7868e6;
+  font-family: "Red Hat Display", sans-serif;
+  color: #e4fbff;
 }
 ul {
   padding: 0;
   width: 100%;
+  margin-top: 0%;
+  margin-bottom: 1%;
 }
 nav {
   margin-right: 0px;
 }
-a{
-    text-decoration: none;
-    color: #7868e6;
+a {
+  text-decoration: none;
+  color: #7868e6;
+}
+a:hover {
+  color: #b8b5ff;
+}
+input[type="email"],
+.top-button {
+  display: block;
+  margin: auto;
+  font-family: "Red Hat Display", sans-serif;
+}
+input[type="email"] {
+  padding: 0.5% 2%;
+  width: 25%;
+  border: none;
+  margin-bottom: 2%;
+  font-size: 1rem;
+}
+.top-button {
+  width: 100px;
+  padding: 0.5%;
+  border-radius: 10px;
+  border: 2px solid #e4fbff;
+  background-color: #7868e6;
+  color: #e4fbff;
+  font-size: 1rem;
+  margin-top: 2%;
+}
+.top-button:hover {
+  background-color: #e4fbff;
+  color: #7868e6;
+}
+#heading {
+  text-align: center;
+  font-size: 2rem;
+  /* margin-top: -2%; */
 }
 #header {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
+  overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  background: #edeef7;
+  width: 100%; /*Full width */
+  background: #e4fbff;
   margin: auto;
+  /* height:10%; */
 }
 #brand-name {
   display: flex;
@@ -36,10 +79,21 @@ a{
 #header-text {
   font-family: "Berkshire Swash", cursive;
   margin-left: 1%;
+  color: black;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 #nav-bar {
   justify-self: end;
-  padding: 4%;
+  padding: 2% 4%;
+}
+#container {
+  position: inherit;
+  margin: auto;
+  height: auto;
+  width: 80%;
+  /* background-color: yellow; */
+  margin-top: 4%;
 }
 .nav-link {
   text-decoration: none;
@@ -50,7 +104,31 @@ a{
   font-size: 1.2rem;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 744px) {
+  input[type="email"] {
+    padding: 0.5% 2%;
+    width: 50%;
+    border: none;
+    font-size: 0.8rem;
+  }
+  .top-button {
+    width: 80px;
+    padding: 0.7%;
+    border-radius: 10px;
+    border: 2px solid #e4fbff;
+    background-color: #7868e6;
+    color: #e4fbff;
+    font-size: 0.7rem;
+    margin-top: 3%;
+  }
+  .nav-link {
+    font-size: 1rem;
+    padding: 5px;
+    justify-self: center;
+  }
+  #heading {
+    font-size: 1.4rem;
+  }
   #header {
     display: block;
     text-align: center;
@@ -59,12 +137,6 @@ a{
     display: block;
     margin: auto;
   }
-  .nav-link {
-    font-size: 1rem;
-    padding: 5px;
-    justify-self: center;
-  }
-
   #header-img {
     height: 3.5rem;
     margin-left: 0%;
@@ -75,5 +147,13 @@ a{
     margin-left: 0;
     padding-right: 0;
     margin-top: -1%;
+  }
+  #container {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 506px) {
+  #container {
+    margin-top: 35%;
   }
 }
