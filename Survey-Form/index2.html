@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Restaurant Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the service.
+      </p>
+    </div>
+    <form action="" id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="" id="name" placeholder="Enter your name" />
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="" id="email" placeholder="Enter your email" />
+      <label id="number-label" for="age">Age</label>
+      <input type="number" placeholder="Age" id="number" min="10" max="50" />
+      <label class="dropdown-label" for="role"
+        >Which Cuisine you have tried?</label
+      >
+      <select
+        id="dropdown"
+        name="current-role"
+        placeholder="Select current role"
+        class="label-class"
+      >
+        <option value=""></option>
+        <option value="chinese">Chinese</option>
+        <option value="indian">Indian</option>
+        <option value="american">American</option>
+        <option value="italian">Italian</option>
+      </select>
+      <label class="radio-checkbox-label" for="radio"
+        >How was the food quality?</label
+      >
+      <input type="radio" name="checkbox1" value="cb1" checked />
+      <label for="cb1">Great</label>
+      <input type="radio" name="checkbox1" value="cb2" />
+      <label for="cb2">Can be improved</label>
+      <input type="radio" name="checkbox1" value="cb3" />
+      <label for="cb3">Not good</label>
+
+      <label class="radio-checkbox-label" for="checkbox"
+        >What would you like to see improved?</label
+      >
+      <div class="checkbox">
+        <input type="checkbox" name="v1" value="cb1"  />
+        <label for="cb1">Quality of food</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="v2" value="cb2" />
+        <label for="cb2">Quantity of food</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="v3" value="cb3" />
+        <label for="cb3">Waiter Service</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="v4" value="cb4" />
+        <label for="cb4">Prices</label>
+      </div>
+
+      <label for="textarea">Any comments or suggestions?</label>
+      <textarea
+        name=""
+        id="textarea"
+        cols=""
+        rows=""
+        placeholder="Enter your comments here..."
+        row="5"
+      ></textarea>
+
+      <button id="btn" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

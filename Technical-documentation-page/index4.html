@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>C++ Tutorial</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Learn C++</header>
+      <ul>
+        <li><a href="#first" class="nav-link">C++ Tutorial</a></li>
+        <li><a href="#second" class="nav-link">What is C++</a></li>
+        <li>
+          <a href="#third" class="nav-link"
+            >Object-Oriented Programming (OOPs)</a
+          >
+        </li>
+        <li><a href="#fourth" class="nav-link">C++ Standard Libraries</a></li>
+        <li><a href="#fifth" class="nav-link">Usage of C++</a></li>
+        <li><a href="#sixth" class="nav-link">C++ Program</a></li>
+        <li><a href="#seventh" class="nav-link">C++ Basic Input/Output</a></li>
+        <li>
+          <a href="#eighth" class="nav-link">Standard output stream (cout)</a>
+        </li>
+        <li>
+          <a href="#ninth" class="nav-link">Standard input stream (cin)</a>
+        </li>
+        <li><a href="#tenth" class="nav-link">Standard end line (endl)</a></li>
+        <li><a href="#eleventh" class="nav-link">C++ Variable</a></li>
+        <li><a href="#twelth" class="nav-link">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section">
+        <header class="heading" id="first">C++ Tutorial</header>
+        <p>
+          C++ tutorial provides basic and advanced concepts of C++. Our C++
+          tutorial is designed for beginners and professionals.
+        </p>
+        <p>
+          C++ is an object-oriented programming language. It is an extension to
+          C programming.
+        </p>
+        <p>
+          Our C++ tutorial includes all topics of C++ such as first example,
+          control statements, objects and classes, inheritance, constructor,
+          destructor, this, static, polymorphism, abstraction, abstract class,
+          interface, namespace, encapsulation, arrays, strings, exception
+          handling, File IO, etc.
+        </p>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="second">What is C++</header>
+        <p>
+          C++ is a general purpose, case-sensitive, free-form programming
+          language that supports object-oriented, procedural and generic
+          programming.
+        </p>
+        <p>
+          C++ is a middle-level language, as it encapsulates both high and low
+          level language features.
+        </p>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="third">
+          Object-Oriented Programming (OOPs)
+        </header>
+        <p>
+          C++ supports the object-oriented programming, the four major pillar of
+          object-oriented programming (OOPs) used in C++ are:
+        </p>
+        <ol>
+          <li>Inheritence</li>
+          <li>Polymorphism</li>
+          <li>Encapsulation</li>
+          <li>Abstraction</li>
+        </ol>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="fourth">C++ Standard Libraries</header>
+        <p>Standard C++ programming is divided into three important parts:</p>
+        <ul>
+          <li>
+            The core library includes the data types, variables and literals,
+            etc.
+          </li>
+          <li>
+            The standard library includes the set of functions manipulating
+            strings, files, etc.
+          </li>
+          <li>
+            The Standard Template Library (STL) includes the set of methods
+            manipulating a data structure.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="fifth">Usage of C++</header>
+        <p>
+          By the help of C++ programming language, we can develop different
+          types of secured and robust applications:
+        </p>
+        <ul>
+          <li>Window application</li>
+          <li>Client-Server application</li>
+          <li>Device drivers</li>
+          <li>Embedded firmware etc</li>
+        </ul>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="sixth">C++ Program</header>
+        <p>
+          In this tutorial, all C++ programs are given with C++ compiler so that
+          you can easily change the C++ program code.
+        </p>
+        <p>File: main.cpp</p>
+        <code>
+          <pre>
+           #include <kbd><</kbd>iostream<kbd>></kbd>
+           using namespace std;  
+           int main() {  
+           cout << "Hello C++ Programming";  
+           return 0;  
+           }   
+          </pre>
+        </code>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="seventh">C++ Basic Input/Output</header>
+        <p>
+          C++ I/O operation is using the stream concept. Stream is the sequence
+          of bytes or flow of data. It makes the performance fast.
+        </p>
+        <p>
+          If bytes flow from main memory to device like printer, display screen,
+          or a network connection, etc, this is called as output operation .
+        </p>
+        <p>
+          If bytes flow from device like printer, display screen, or a network
+          connection, etc to main memory, this is called as input operation .
+        </p>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="eighth">
+          Standard output stream (cout)
+        </header>
+        <p>
+          The cout is a predefined object of ostream class. It is connected with
+          the standard output device, which is usually a display screen. The
+          cout is used in conjunction with stream insertion operator (<<) to
+          display the output on a console
+        </p>
+        <p>Let's see the simple example of standard output stream (cout):</p>
+
+        <code>
+          <pre>
+            #include <kbd><</kbd>iostream<kbd>></kbd>  
+            using namespace std;  
+            int main() {  
+            char ary[] = "Welcome to C++ tutorial";  
+            cout << "Value of ary is: " << ary << endl;  
+            } 
+         </pre
+          >
+        </code>
+        <p>Output:</p>
+        <samp>
+          <pre>
+             Value of ary is: Welcome to C++ tutorial
+          </pre>
+        </samp>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="ninth">Standard input stream (cin)</header>
+        <p>
+          The cin is a predefined object of istream class. It is connected with
+          the standard input device, which is usually a keyboard. The cin is
+          used in conjunction with stream extraction operator (>>) to read the
+          input from a console.
+        </p>
+        <p>Let's see the simple example of standard input stream (cin):</p>
+        <code>
+          <pre>
+             #include <kbd><</kbd>iostream<kbd>></kbd>   
+             using namespace std;  
+             int main( ) {  
+             int age;  
+             cout << "Enter your age: ";  
+             cin >> age;  
+             cout << "Your age is: " << age << endl;  
+             }  
+            </pre
+          >
+        </code>
+        <p>Output:</p>
+        <samp>
+          <pre>
+             Enter your age: 22 
+             Your age is: 22
+          </pre>
+        </samp>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="tenth">Standard end line (endl)</header>
+        <p>
+          The endl is a predefined object of ostream class. It is used to insert
+          a new line characters and flushes the stream.
+        </p>
+        <p>Let's see the simple example of standard end line (endl):</p>
+        <code>
+          <pre>
+             #include <kbd><</kbd>iostream<kbd>></kbd>   
+             using namespace std;  
+             int main( ) {  
+             cout << "C++ Tutorial";     
+             cout << " Javatpoint"<< endl;   
+             cout << "End of line"<< endl;   
+             }   
+            </pre
+          >
+        </code>
+        <p>Output:</p>
+        <samp>
+          <pre>
+             C++ Tutorial Javatpoint 
+             End of line
+          </pre>
+        </samp>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="eleventh">C++ Variable</header>
+        <p>
+          A variable is a name of memory location. It is used to store data. Its
+          value can be changed and it can be reused many times.
+        </p>
+        <p>
+          It is a way to represent memory location through symbol so that it can
+          be easily identified.
+        </p>
+        <p>Let's see the syntax to declare a variable:</p>
+        <code>
+          <pre>
+              type variable_list;
+           </pre
+          >
+        </code>
+        <p>The example of declaring variable is given below:</p>
+        <code>
+          <pre>
+              int x;    
+              float y;    
+              char z;   
+           </pre
+          >
+        </code>
+        <p>Here, x, y, z are variables and int, float, char are data types.</p>
+        <p>
+          We can also provide values while declaring the variables as given
+          below:
+        </p>
+        <code>
+          <pre>
+              int x=5,b=10;  //declaring 2 variable of integer type    
+              float f=30.8;    
+              char c='A';   
+           </pre
+          >
+        </code>
+      </section>
+      <section class="main-section">
+        <header class="heading" id="twelth">Reference</header>
+        <p>
+          All the documentation in this page is taken from
+          <a href="https://www.javatpoint.com/cpp-tutorial" target="_blank"
+            >JAVATPOINT</a
+          >
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
