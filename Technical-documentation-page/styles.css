@@ -7,6 +7,7 @@ p,
 li {
   font: 600 1rem "Nunito", sans-serif;
   margin-left: 4%;
+  list-style: none;
 }
 header {
   font: bolder 3rem "Lato", sans-serif;
