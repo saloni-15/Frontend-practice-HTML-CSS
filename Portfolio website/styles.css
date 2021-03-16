@@ -1,0 +1,58 @@
+body {
+  background-color: #010111;
+  font-family: "Lato", sans-serif;
+  color: #f1f3f8;
+}
+li {
+  list-style: none;
+  padding: 2% 4%;
+}
+ul > li:nth-child(3) {
+  padding-right: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #f1f3f8;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.nav-link:hover {
+  color: #0779e4;
+}
+#container {
+  margin: auto;
+  width: 80%;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+}
+#name {
+  width: 50%;
+  font-size: 1.5rem;
+}
+#navbar ul {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#welcome {
+  text-align: left;
+  margin-top: 12%;
+}
+#welcome h1 {
+  font-size: 5rem;
+  margin: 0;
+  line-height: 6rem;
+}
+#raman {
+  color: #0779e4;
+}
+#welcome-text {
+  width: 50%;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
