@@ -8,7 +8,7 @@ In this Responsive Web Design Certification, the objective is to learn the langu
 Firstly, In this course, I've build a cat photo app to learn the basics of HTML and CSS. Later, I've learned modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a web form.
 
 Finally, I've build four out of five projects mentioned below.
-As of now I'm working on the fifth project to complete this course and get the certification.
+And currently I'm working on the fifth project to complete this course and get the certification.
 
 ## View Project Output
 * [1. Tribute Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Tribute-Page/index1.html)
