@@ -19,7 +19,7 @@ ul > li:nth-child(3) {
 .nav-link:hover {
   color: #0779e4;
 }
-#container {
+.container {
   margin: auto;
   width: 80%;
 }
@@ -29,6 +29,7 @@ ul > li:nth-child(3) {
   align-items: center;
   position: relative;
   height: 60px;
+  margin-top: 3rem;
 }
 #name {
   width: 50%;
@@ -55,4 +56,58 @@ ul > li:nth-child(3) {
   width: 50%;
   font-size: 1.1rem;
   line-height: 1.7;
+}
+#skills {
+  width: 100%;
+  /* background-color: #0779e4; */
+  padding: 1.5rem 0 1.5rem 0;
+  margin: 10rem 0 10rem 0;
+}
+.sub-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+.skill {
+  display: flex;
+  align-items: center;
+}
+.skill-image {
+  height: 100px;
+  width: 100px;
+  margin-right: 3rem;
+}
+#skills p {
+  font-size: 1.2rem;
+}
+.card-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: stretch;
+  /* grid-row-gap: 2rem; */
+}
+.card {
+  height: 350px;
+  width: 400px;
+  background-color: #fff;
+  justify-self: center;
+  /* background-size: 400px 250px; */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#card-1 {
+  background-image: url(./photos/facecam.PNG);
+}
+#card-2 {
+  background-image: url(./photos/3dheader.PNG);
+}
+#card-3 {
+  background-image: url(./photos/header.PNG);
+}
+#card-4 {
+  background-image: url(./photos/thumnb.PNG);
+}
+#card-5 {
+  background-image: url(./photos/rogue.PNG);
 }
