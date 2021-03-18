@@ -12,11 +12,11 @@ Finally, I've build five projects mentioned below to get certification.
 
 ## View Project Output
 
-- ⭐[1. Tribute Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Tribute-Page/index1.html)
-- ⭐[2. Survey Form](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Survey-Form/index2.html)
-- ⭐[3. Product Landing Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Product-Landing-Page/index3.html)
-- ⭐[4. Technical Documentation Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Technical-documentation-page/index4.html)
-- ⭐[5. Porfolio Website](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Portfolio%20website/index5.html)
+- ⭐[Tribute Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Tribute-Page/index1.html)
+- ⭐[Survey Form](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Survey-Form/index2.html)
+- ⭐[Product Landing Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Product-Landing-Page/index3.html)
+- ⭐[Technical Documentation Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Technical-documentation-page/index4.html)
+- ⭐[Porfolio Website](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Portfolio%20website/index5.html)
 
 ## [1.Tribute Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Tribute-Page)
 
