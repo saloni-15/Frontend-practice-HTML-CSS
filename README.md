@@ -21,9 +21,9 @@ Finally, I've build five projects mentioned below to get certification.
 ## [1.Tribute Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Tribute-Page)
 
 A simple web page.
-
+<centre>
 ![gif1](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/tribute.gif)
-
+</centre>
 ## [2.Survey Form](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Survey-Form)
 
 Survey form using HTML form properties.
