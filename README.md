@@ -18,26 +18,27 @@ Finally, I've build five projects mentioned below to get certification.
 - ⭐[Technical Documentation Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Technical-documentation-page/index4.html)
 - ⭐[Portfolio Website](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Portfolio%20website/index5.html)
 
-## [1.Tribute Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Tribute-Page)
-
-A simple web page.
+## [1. Tribute Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Tribute-Page)
 
 ![gif1](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/tribute.gif)
 
-## [2.Survey Form](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Survey-Form)
-
-Survey form using HTML form properties.
+## [2. Survey Form](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Survey-Form)
 
 ![gif2](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/form.gif)
 
-## [3.Product Landing Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Product-Landing-Page)
-
-A fully responsive product landing page(Using CSS Flexbox and Grids).
+## [3. Product Landing Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Product-Landing-Page)
 
 ![gif3](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/product.gif)
 
-## [4.Technical Documentation Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Technical-documentation-page)
-
-A technical documentation page.
+## [4. Technical Documentation Page](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Technical-documentation-page)
 
 ![gif4](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/documentation.gif)
+
+## [5. Portfolio Website](https://github.com/saloni-15/Frontend-practice-HTML-CSS/tree/main/Portfolio%20website)
+
+![gif5](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/portfolio.gif)
+
+
+## [Course completion certficate](https://www.freecodecamp.org/certification/fccdadc9452-f170-4aae-ab27-02dff9886179/responsive-web-design)
+
+
