@@ -39,6 +39,8 @@ Finally, I've build five projects mentioned below to get certification.
 ![gif5](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/portfolio.gif)
 
 
-## [Course completion certficate](https://www.freecodecamp.org/certification/fccdadc9452-f170-4aae-ab27-02dff9886179/responsive-web-design)
+## [✨Course completion Certficate](https://www.freecodecamp.org/certification/fccdadc9452-f170-4aae-ab27-02dff9886179/responsive-web-design)
+
+![img](https://github.com/saloni-15/Frontend-practice-HTML-CSS/blob/main/assets/certificate.PNG)
 
 
