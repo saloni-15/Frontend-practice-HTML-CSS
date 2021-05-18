@@ -2,14 +2,6 @@
 
 These projects have been done for [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design).
 
-## Objective of this Course
-
-In this Responsive Web Design Certification, the objective is to learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
-
-Firstly, In this course, I've build a cat photo app to learn the basics of HTML and CSS. Later, I've learned modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a web form.
-
-Finally, I've build five projects mentioned below to get certification.
-
 ## View Project Output
 
 - ⭐[Tribute Page](https://saloni-15.github.io/Frontend-practice-HTML-CSS/Tribute-Page/index1.html)
